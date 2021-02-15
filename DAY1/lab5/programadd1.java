@@ -1,7 +1,6 @@
 package lab5;
 /**
  * @author Sanat 190953222
- * Bank program 1
  */
 import java.util.Scanner;
 

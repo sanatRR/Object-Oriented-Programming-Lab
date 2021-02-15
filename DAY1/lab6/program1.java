@@ -1,8 +1,8 @@
 package lab6;
 /**
  *
- * @author student
- * Bank program 1
+ * @author Sanat 190953222
+ * Bank program to deposit money, pay interest, withdraw money and penalize
  */
 public class program1{
     public static void main(String[] args){

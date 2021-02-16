@@ -42,6 +42,8 @@ abstract class Account{
      */
     Account(String custName,char type){
     	acNum=++num;
+	this.custName=custName
+	this.type=type;
     }
    
     /**

@@ -31,7 +31,7 @@ abstract class figures{
      * Implementation not provided
      * since the area() method performs
      * differently for circle and rectangle
-     * @return
+     * @return area of the figure
      */
     abstract double area();
 }

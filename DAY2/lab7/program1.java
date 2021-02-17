@@ -47,6 +47,7 @@ public class program1{
 		 * them to the LinkedList
 		 */
 		while(num--!=0){
+			System.out.println("Enter Name and ID");
 			tempName=scan1.next();
 			tempID=scan1.nextInt();
 			list1.add(new Student_Detail(tempName,"MIT",tempID));

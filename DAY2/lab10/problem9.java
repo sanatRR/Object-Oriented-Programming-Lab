@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class problem9 {
     static char calculateGrade(int total){
         System.out.println("The total marks are "+total);
-        if(total>=90)
+        if(total>=290)
             return 'A';
         else if(total>=240)
             return 'B';

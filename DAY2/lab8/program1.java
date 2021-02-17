@@ -19,14 +19,13 @@ public class program1 {
          * in the hardMap
          */
         h1.hardMap.put("Dell", "inspiron");
-        h1.hardMap.put("HP", "SpectreX360");
-        h1.hardMap.put("Apple","MacbookPro");
+        h1.hardMap.put("HP", "X360");
         /**
          * Place the software key-value pairs 
          * in the softMap
          */
-        s1.softMap.put("Microsoft", "Windows7");
-        s1.softMap.put("Android", "Oreo");
+        s1.softMap.put("Microsoft Teams", "Windows7");
+        s1.softMap.put("Candy Crush", "Android");
         /**
          * print the total sales
          * i.e size of the HashMaps

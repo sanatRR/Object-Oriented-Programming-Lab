@@ -2,12 +2,19 @@ package lab10;
 import java.util.Scanner;
 /**
  *
- * @author Student
- * 
+ * @author Sanat 190953222
+ * Program to compute percentage, grade and handle NumberFormatException
  */
 public class problem9 {
+	/**
+	 * Function to calculate grade, percentage
+	 * and total marks
+	 * @param total
+	 * @return
+	 */
     static char calculateGrade(int total){
-        System.out.println("The total marks are "+total);
+        System.out.println("The total marks are: "+total);
+        System.out.println("Percentage: "+total*100.0/(300.0));
         if(total>=290)
             return 'A';
         else if(total>=240)
@@ -21,6 +28,7 @@ public class problem9 {
         else 
             return 'F';
     }
+    
     public static void main(String[] args){
      String name;
      int rollNo;
@@ -28,6 +36,7 @@ public class problem9 {
      Scanner scan1=new Scanner(System.in);
      System.out.println("Enter name, roll-no and mark for subject 1, 2 and 3 separated by space");
      String input=scan1.nextLine();
+     //Split the input string at every white-space
      String array[]=input.split(" ");
      name=array[0];
      try{

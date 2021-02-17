@@ -20,6 +20,10 @@ public class program8{
             int temp=scan1.nextInt();
 		try{
 			int arr[]=new int[temp];
+			/**
+			 * If size of array is greater than 100
+			 * then Exception shall be thrown
+			 */
 			if(temp>100)
 				throw new ArrayOverflowException();
 		}catch(ArrayOverflowException e){
